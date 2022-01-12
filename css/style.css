@@ -1,3 +1,7 @@
+html{
+  line-height: 1.15;
+}
+
 body {
   margin: 0;
 }
@@ -130,4 +134,32 @@ div{
   left: 20px;
   top: -50px;
   text-align: center;
+}
+
+/* input[type=text]{
+  padding: 10px;
+  font-size: 16px;
+  border: 1rem solid rgb(153, 0, 255);
+  border-radius:10px;
+  border-width: 20px;
+  background:rgba(247, 239, 129, 0.904)
+} */
+
+.tag{
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+input[type=email]{
+padding: 10px;
+width: 50%;
+max-width: 600px;
+margin-bottom: 30px;
+}
+
+.name-tag{
+  padding: 10px;
+  width: 20%;
+  max-width: 300px;
+  margin-bottom: 30px;
 }
